@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import MRAU from '../../assets/MRAU Logo.svg'
+import MRAU from '../../assets/MRAU-Logo.svg'
 
 const navLink = 'transition-transform hover:scale-110'
 
