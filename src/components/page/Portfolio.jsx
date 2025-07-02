@@ -2,7 +2,7 @@ import ProjectCard from "../atom/Project Card"
 import Main from "../layout/Main"
 import Footer from "../organism/Footer"
 import Header from "../organism/Header"
-import RizCod from '../../assets/Rizky Code.jpg'
+import RizCod from '../../assets/Rizky-Code.jpg'
 
 
 const Project = () => {
