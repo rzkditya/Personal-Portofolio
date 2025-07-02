@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import MRAU from '../../assets/MRAU Logo.svg'
 
 const navLink = 'transition-transform hover:scale-110'
 
@@ -12,7 +13,7 @@ const Header = () => {
 
       <header className='fixed top-0 left-0 w-full py-[20px] px-[10%] bg-transparent backdrop-blur-sm text-strong-dark-navy font-medium text-lg z-50 transition-transform duration-300 -translate-y-full group-hover:translate-y-0 '>
           <div className="flex justify-between items-center">
-            <Link to="/Home" className='hover:rotate-360 transition duration-1000'><img src="MRAU Logo.svg" alt="Header Icon" className='h-9' /></Link>
+            <Link to="/Home" className='hover:rotate-360 transition duration-1000'><img src={MRAU} alt="Header Icon" className='h-9' /></Link>
 
             <nav className='flex gap-[35px]'>
                 <Link to="/Home" className={navLink}>HOME</Link>

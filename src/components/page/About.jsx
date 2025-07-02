@@ -6,6 +6,7 @@ import Footer from '../organism/Footer'
 import RizCof from '../../assets/Rizky Coffee.jpg'
 import RizPgn from '../../assets/Rizky PGN.jpg'
 import RizCod from '../../assets/Rizky Code.jpg'
+import Tailwind from '../../assets/Tailwindcss.svg'
 
 const iconSize = 'text-5xl'
 
@@ -112,7 +113,7 @@ const About = () => {
               <FontAwesomeIcon icon="fa-brands fa-npm" className={iconSize} />
             </Skills>
             <Skills text={'Tailwind'}>
-              <img src='./logo/Tailwindcss.svg' className='w-[48px]' />
+              <img src={Tailwind} className='w-[48px]' />
             </Skills>
             <Skills text={'React JS'}>
               <FontAwesomeIcon icon="fa-brands fa-react" className={iconSize} />
