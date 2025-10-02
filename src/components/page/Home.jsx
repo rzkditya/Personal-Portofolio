@@ -8,7 +8,7 @@ import NavIcon from "../atom/NavIcon";
 const Home = () => {
   return (
     <>
-      <main className="flex w-full h-screen font-display overflow-hidden">
+      <main className="flex w-full h-dvh font-display overflow-hidden">
         <div className="grid grid-cols-2 w-full z-1">
           {/* Image background */}
           <div className="relative flex">
