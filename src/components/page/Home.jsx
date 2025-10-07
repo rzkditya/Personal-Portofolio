@@ -15,7 +15,7 @@ const Home = () => {
             <img
               src={BG_Image}
               alt="BG_Image"
-              className="invisible sm:visible  h-50 bottom-0 sm:h-145 opacity-75"
+              className="invisible sm:visible h-50 bottom-0 sm:h-145 opacity-75"
             />
             <img
               src={Hero_Image}
@@ -55,9 +55,9 @@ const Home = () => {
           alt="Accent"
           className="absolute top-0 right-0 w-100 h-100 z-0"
         />
-        <NavIcon></NavIcon>
         <Sidebar></Sidebar>
       </main>
+      <NavIcon></NavIcon>
     </>
   );
 };
