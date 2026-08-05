@@ -8,6 +8,7 @@ import NavIcon from "../atom/NavIcon";
 const Home = () => {
   return (
     <>
+      <NavIcon />
       <main className="flex w-full h-dvh font-display overflow-hidden">
         <div className="grid grid-cols-2 w-full z-1">
           {/* Image background */}
@@ -26,7 +27,7 @@ const Home = () => {
 
           {/* Intro text */}
           <div className="sm:relative flex text-black w-full h-full">
-            <div className="absolute flex flex-col bottom-70 left-15 w-100 sm:top-30 sm:left-26 sm:w-120 bg-cover bg-top bg-[url('/images/BG_Home.jpg')] sm:bg-none py-2 px-4 rounded-lg ">
+            <div className="absolute flex flex-col bottom-70 left-15 w-100 sm:top-26 sm:left-24 sm:w-120 bg-cover bg-top bg-[url('/images/BG_Home.jpg')] sm:bg-none py-2 px-4 rounded-lg ">
               {/* Overlay for readability */}
               <div className="absolute inset-0 bg-black/10 backdrop-blur-[2px] rounded-lg sm:hidden"></div>
 
@@ -55,9 +56,8 @@ const Home = () => {
           alt="Accent"
           className="absolute top-0 right-0 w-100 h-100 z-0"
         />
-        <Sidebar></Sidebar>
+        <Sidebar />
       </main>
-      <NavIcon></NavIcon>
     </>
   );
 };
