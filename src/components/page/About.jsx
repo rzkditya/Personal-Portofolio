@@ -57,7 +57,7 @@ const About = () => {
         >
           <div className="flex justify-center items-center w-[40%] bg-background-1">
             <div className="flex justify-center items-center sm:w-66 lg:w-100">
-              <p className="font-text font-bold italic text-justify sm:text-sm/snug lg:text-lg/snug">
+              <p className="font-text font-bold italic text-justify sm:text-sm/snug lg:text-lg/snug z-20">
                 In 2024, I began working at PGN, first as a City Gas Sales, then
                 in Sales and Customer Management Representative. These roles
                 taught me about customer empathy and real-world problem solving.
