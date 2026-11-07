@@ -10,9 +10,9 @@ const Contact = () => {
   return (
     <>
       <NavIcon />
-      <Main className="relative flex flex-col">
+      <Main className="relative flex flex-col overflow-y-hidden overflow-x-hidden">
         <div className="flex flex-col w-full h-full p-8">
-          <section className="flex flex-col w-full h-[30%]">
+          <section className="flex flex-col w-full h-[25%]">
             <div className="self-end text-[144px] font-display font-semibold tracking-tighter">
               CONTACT ME
             </div>
@@ -22,7 +22,7 @@ const Contact = () => {
               <img
                 src={Contact_img}
                 alt="Contact Img"
-                className="w-96 h-120 object-cover opacity-50"
+                className="w-96 h-115 object-cover opacity-50"
               />
             </div>
             <div className="flex flex-col justify-center w-[40%] px-8 gap-14">
@@ -64,7 +64,7 @@ const Contact = () => {
                     id="message"
                     name="message"
                     rows={3}
-                    className="border-b-2"
+                    className="min-h-10 max-h-30 border-b-2 scrollbar-thin overflow-auto"
                   />
                 </div>
               </div>
