@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
 import NavCard from "./NavCard";
 
-const NavIcon = () => {
+const NavMenu = () => {
   const [open, setOpen] = useState(false);
 
   return (
@@ -77,4 +77,4 @@ const NavIcon = () => {
   );
 };
 
-export default NavIcon;
+export default NavMenu;

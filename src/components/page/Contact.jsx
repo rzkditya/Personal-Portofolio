@@ -1,5 +1,5 @@
 import React from "react";
-import NavIcon from "../atom/NavIcon";
+import NavIcon from "../atom/NavMenu";
 import Sidebar from "../molecule/Sidebar";
 import Main from "../layout/Main";
 import Contact_img from "../../assets/Contact_Img.png";

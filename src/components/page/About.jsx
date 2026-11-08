@@ -1,4 +1,4 @@
-import NavIcon from "../atom/NavIcon";
+import NavIcon from "../atom/NavMenu";
 import Main from "../layout/Main";
 import Accent_1 from "../../assets/Accent_1.png";
 import Accent_2 from "../../assets/Accent_2.png";

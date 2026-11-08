@@ -4,21 +4,26 @@ import { skillsData } from "../../datas/TechSkills.js";
 
 const Skills = () => {
   return (
-    <div className="flex flex-col w-full h-full p-8">
-      <div className="flex flex-col w-full h-[25%]">
-        <h1 className="tracking-tighter">SKILLS</h1>
-        <div className="w-fit px-2 text-lg bg-accent-blue">
+    <div className="grid grid-cols-1 md:grid-cols-12 gap-6 items-end py-8">
+      <div className="md:col-span-6">
+        <span className="text-sm text-gray-400 tracking-widest uppercase">
+          01 / Capabilities
+        </span>
+        <h1 className="md:text-7xl tracking-tighter uppercase mb-4">skills</h1>
+        <div className="w-fit px-2 text-lg text-white bg-accent-blue">
           Technical Skills
         </div>
       </div>
-      <p>
-        Here are the technologies I Work with to architect reliable systems and
-        digital products.
-      </p>
-      <div className="flex gap-4 mt-4">
-        {skillsData.map((skill, index) => (
-          <SkillsIcon key={index} icon={skill.icon} name={skill.name} />
-        ))}
+      <div className="md:col-span-6">
+        <p className="tex-md mb-4">
+          Here are the technologies I Work with to architect reliable systems
+          and digital products.
+        </p>
+        <div className="flex flex-wrap gap-4">
+          {skillsData.map((skill, index) => (
+            <SkillsIcon key={index} icon={skill.icon} name={skill.name} />
+          ))}
+        </div>
       </div>
     </div>
   );

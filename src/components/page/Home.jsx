@@ -3,12 +3,12 @@ import BG_Image from "../../assets/BG_Home.jpg";
 import Hero_Image from "../../assets/Hero_Image.png";
 import Home_Accent from "../../assets/Home_Accent.png";
 import Sidebar from "../molecule/Sidebar";
-import NavIcon from "../atom/NavIcon";
+import NavMenu from "../atom/NavMenu";
 
 const Home = () => {
   return (
     <>
-      <NavIcon />
+      <NavMenu />
       <main className="flex w-full h-dvh font-display overflow-hidden">
         <div className="grid grid-cols-2 w-full z-1">
           {/* Image background */}
