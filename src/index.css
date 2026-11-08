@@ -12,6 +12,8 @@
   /* Background */
   --color-background-1: #e8e7e3;
 
+  --color-text-title: #3a434c;
+
   /* Other Color */
   --color-accent-blue: #5284ad;
   --color-accent-pink: #e25e93;
@@ -19,19 +21,19 @@
 
 @layer base {
   h1 {
-    color: var(--color-deep-navy);
+    color: var(--color-text-title);
     font-size: var(--text-5xl);
     font-weight: var(--font-weight-bold);
   }
 
   h2 {
-    color: var(--color-dusty-purple-gray);
+    color: var(--color-text-title);
     font-size: var(--text-3xl);
     font-weight: var(--font-weight-bold);
   }
 
   h3 {
-    color: var(--color-strong-dark-navy);
+    color: var(--color-gray-900);
     font-size: var(--text-xl);
     font-weight: var(--font-weight-medium);
   }
