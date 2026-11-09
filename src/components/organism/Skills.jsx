@@ -4,7 +4,7 @@ import { skillsData } from "../../datas/TechSkills.js";
 
 const Skills = () => {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-12 gap-6 items-end py-8">
+    <div className="grid grid-cols-1 md:grid-cols-12 gap-6 items-end py-8 mb-8">
       <div className="md:col-span-6">
         <span className="text-sm text-gray-400 tracking-widest uppercase">
           01 / Capabilities
@@ -15,7 +15,7 @@ const Skills = () => {
         </div>
       </div>
       <div className="md:col-span-6">
-        <p className="tex-md mb-4">
+        <p className="text-md mb-4">
           Here are the technologies I Work with to architect reliable systems
           and digital products.
         </p>

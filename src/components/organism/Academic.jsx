@@ -3,7 +3,7 @@ import PortfolioCard from "../atom/PortfolioCard";
 
 const Academic = () => {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-12 gap-6 items-start py-8">
+    <div className="grid grid-cols-1 md:grid-cols-12 gap-6 items-start border-t-3 border-black/50 py-8">
       <div className="md:col-span-6">
         <span className="text-sm text-gray-400 tracking-widest uppercase">
           03 / Academic
