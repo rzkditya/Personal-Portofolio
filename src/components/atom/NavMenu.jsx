@@ -60,7 +60,7 @@ const NavMenu = () => {
                 <Link to={"/About"}>ABOUT ME</Link>
               </li>
               <li className="flex justify-center w-50 p-4 rounded-lg bg-white">
-                <Link to={"/Experience"}>EXPERIENCES</Link>
+                <Link to={"/Career"}>CAREER</Link>
               </li>
               <li className="flex justify-center w-50 p-4 rounded-lg bg-white">
                 <Link to={"/Contact"}>CONTACT</Link>
