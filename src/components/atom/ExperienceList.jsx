@@ -25,9 +25,9 @@ const ExperienceList = ({
           <FontAwesomeIcon
             icon="fa-solid fa-circle"
             size="2xs"
-            className="mx-4"
+            className="mx-4 scale-50"
           />
-          <span className="font-bold">
+          <span className="flex items-center font-bold">
             <FontAwesomeIcon icon="fa-solid fa-calendar" className="mr-1" />
             {dates}
           </span>

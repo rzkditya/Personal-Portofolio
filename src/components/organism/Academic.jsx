@@ -29,7 +29,7 @@ const Academic = () => {
           <div>
             <div className="flex justify-between items-baseline">
               <h3>Universitas Sriwijaya</h3>
-              <span className="text-sm">2017-2022</span>
+              <span className="text-sm">2017 - 2022</span>
             </div>
             <p className="text-accent-blue text-md font-semibold">
               Bachelors of Computer Systems
